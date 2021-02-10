@@ -1,0 +1,54 @@
+
+:root {
+	--timer-background-color: #FFFFFF;
+--timer-border: 1px solid #000000;
+	--timer-height: 70%;
+	--timer-width: 60%;
+  --button-border: 3px solid #000000;
+  --button-text-size: 2em;
+}
+.timer-container {
+	background-color: #f1f2f6;
+	box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+	/* border: var(--timer-border); */
+	height: var(--timer-height);
+	width: var(--timer-width);
+	margin: auto;
+	/* padding-bottom: 20px; */
+	display: flex;
+	/* padding: px 20px; */
+	flex-direction: column;
+	align-items: center;
+
+
+}
+
+.timer-title{
+	font-family: 'Satisfy', cursive;
+}
+
+.time-display{
+	font-size: 40px;
+	align-items: center;
+	/* padding-bottom: 15px; */
+}
+
+.timer-button-container{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 30px;
+	width: 100%;
+	
+}
+
+@media screen and (max-width: 1024px) {
+	 
+		.timer-button-container{
+			display: flex;
+			flex-direction: column;
+			padding-bottom: 30px;
+			width: 100%;
+			
+		}
+}
+

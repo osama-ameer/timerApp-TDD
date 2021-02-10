@@ -1,0 +1,29 @@
+.btn{
+  cursor: pointer;
+  width: 180px;
+  margin:5px;
+  color: black;
+  font-weight: bold;
+  border:none;
+  background-color: #747d8c;
+  border-radius: 3px;
+  /* font-size: 16px; */
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+
+}
+.btn:hover{
+  transform: scale(1.05);
+  transition:  transform 0.2s ease-in-out;
+
+}
+.btn:focus{
+  outline: none;
+}
+.cont-btn{
+  /* flex: 1 1 auto; */
+
+  flex: 1 1 auto;
+  text-align: center;
+  margin: 0px 5px;
+}
